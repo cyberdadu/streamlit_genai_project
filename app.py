@@ -17,7 +17,7 @@ with st.sidebar:
     
     pil_images = []
     for img in images:
-        pil_img = PIL.Image.open(img)
+        pil_img = Image.open(img)
         pil_images.append(pil_img)
 
 
